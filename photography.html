@@ -1,117 +1,145 @@
-<!DOCTYPE html>
+#Menu {
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #1f1f1f;
+}
 
-<html lang="en">
+#Menu ul li a {
+  color: #1f1f1f;
+}
 
-<head>
 
-  <meta charset="utf-8">
-  <title>MAIA ZHELEZNIAK</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+.navbar-brand {
+  font-family: "Work Sans", sans-serif;
+  font-weight: lighter;
+  color: #1f1f1f;
+  opacity: 0.85;
+}
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" type="text/css" href="photography.css">
+.header {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1f1f1f;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: black;
+  font-style: bolder;
+}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap" rel="stylesheet">
+.img {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px solid rgb(44, 44, 44);
+}
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@900&display=swap');
-  </style>
+* {
+  box-sizing: border-box;
+}
 
-</head>
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 16px;
+}
 
-<body style="background-color: #f7f7f7">
-    <div class="container">
-      <div class="row">
-        <!-- Navbar Start Here -->
-        <!--<nav> tag  start with classes .navbar and .navbar-default and .navbar-fixed-top-->
-        <nav class="navbar navbar-default"></nav> <!-- Dummy nav bar -->
-        <nav class="navbar navbar-default navbar-fixed-top" id="Menu">
-          <div class="container-fluid">
-            <!-- Navbar Header Start Here -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MainNavBar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" style="color: #F53E1A" href="#"> <b>MAIA</b> ZHL</a>
-            </div>
-            <!-- Navbar Header End Here -->
-            <!-- Menu Start Here -->
-            <div class="collapse navbar-collapse" id="MainNavBar">
-              <ul class="nav navbar-nav navbar-right">
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h3 {
+  margin-top: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: black;
+  font-style: bolder;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-right: 10px;
+  color: #1f1f1f;
+}
+
+p {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-right: 10px;
+  color: #1f1f1f;
+
+}
+
+
+
+.skills .dev-icons {
+  font-size: 5.5rem;
+  opacity: 0.85;
+  text-align: center;
+  margin-right: 50px;
+}
+
+
+/* FOOTER */
+
+.footer {
+  flex: 0 0 50px;
+  background-color: #f7f7f7;
   
-                <li><a href="index.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="photography.html">Photography</a></li>
-                
-              </ul>
-            </div>
-            <!-- Menu End Here -->
-          </div>
-        </nav>
-        <!--<nav> tag end-->
-      </div><!-- end of row -->
+}
 
-      <section>
-        <div class="header">
-          <h1><strong>MY ANALOG PHOTOGRAPHY</strong></h1>
-        </div>
-      </section>
+.footer .social {
+  text-align: center;
+  padding-top: 5px 0;
+}
 
-      <section>
+.footer .social i {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px; /* space between icons */
+  opacity: 0.85;
+}
 
-        <div id="gallery">
-  
-          <img src="./images/img_1.JPG">
-          <img src="./images/img_2.JPG">
-          <img src="./images/img_3.JPG">
-          <img src="./images/img_4.JPG">
-          <img src="./images/img_5.JPG">
-          <img src="./images/img_6.JPG">
-          <img src="./images/img_7.JPG">
-          <img src="./images/img_8.JPG">
-          <img src="./images/img_9.JPG">
-          <img src="./images/img_10.JPG">
-          <img src="./images/img_11.JPG">
-          <img src="./images/img_12.JPG">
-          <img src="./images/img_13.JPG">
-          <img src="./images/img_14.JPG">
-          <img src="./images/img_15.JPG">
-          <img src="./images/img_16.JPG">
-          <img src="./images/img_17.JPG">
-          <img src="./images/img_18.JPG">
-          <img src="./images/img_19.JPG">
-          <img src="./images/img_20.JPG">
-        
-         </div>
-         
-      </section>
+.footer h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #1f1f1f;
+ }
 
-      <section class="footer">
-        <h3></h3>
-  
-        <div class="social">
-          <a href="https://vimeo.com/user58003761"><i class="fa fa-vimeo"></i></a>
-          <a href="https://www.linkedin.com/in/MaiaZhelezniak/"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/mayazhl"><i class="fa fa-github-square"></i></a>
-        </div>
-      </section>
-    
-  
-  
-  
-  
-  
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
-      <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </body>
-  
-  </html>
+.fa-vimeo {
+  color: #F53E1A;
+}
+
+.fa-linkedin {
+  color: #F53E1A;
+}
+
+.fa-github-square {
+  color: #F53E1A;
+}
+
+.fa-pinterest {
+  color: #F53E1A;
+}
