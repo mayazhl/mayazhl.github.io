@@ -90,6 +90,16 @@ p {
 
 }
 
+
+
+.skills .dev-icons {
+  font-size: 5.5rem;
+  opacity: 0.85;
+  text-align: center;
+  margin-right: 50px;
+}
+
+
 /* FOOTER */
 
 .footer {
@@ -105,17 +115,17 @@ p {
 
 .footer .social i {
   font-size: 30px;
-  display: inline-block;
   text-align: center;
   margin: 10px; /* space between icons */
   opacity: 0.85;
 }
 
 .footer h3 {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  padding: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  color: #1f1f1f;
  }
 
 .fa-vimeo {
